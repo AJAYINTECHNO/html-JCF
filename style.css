@@ -1,0 +1,89 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(asset/font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(asset/font/Roboto-Bold.ttf);
+}
+body{
+    font-family:"Roboto","Arial";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background-image: url(asset/img/Background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    font-family:"Roboto","Arial";
+    text-align: center;
+    height: 900px;
+    width: 600px;
+    border-radius: 35px;
+}
+#heading-container{
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    margin-top: 0px;
+    font-family: "RobotoBold";
+    font-weight: 900;
+    font-size: 40px;
+    color: #1a1063;
+    position:absolute;
+    top: 300px;
+}
+#logo-img{
+    margin-bottom: 0px;
+    margin-top: 90px;
+    height: 250px;
+    width: 250px;
+}
+#info-table{
+    margin-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    text-align: left;
+    padding-left: 25px;
+    padding: 2px;
+}
+.col-1{
+    color: #1a1063;
+    padding-right: 30px;
+}
+.col-2{
+    color: #66748e;
+    font-weight: 100;
+}
+#checkmark-container{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    color: #5acb9f;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#sign-container{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    color: #1a1063;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration:underline 3px;
+}
+#sign-img{
+    margin-top: 20px;
+    margin-left: 38%;
+}
